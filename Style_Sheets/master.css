@@ -34,6 +34,7 @@ hr {
   border-style: dotted;
   border-width: 6px;
   border-bottom: none;
+  border-color: white;
   width: 2%; 
 }
 label {
