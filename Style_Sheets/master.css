@@ -1,16 +1,17 @@
-
 body {
-    background-image: url(../Background/gradient.jpg);
-    background: no-repeat center center cover;
-    color: white;
-    text-align: center
-  }
+  background-image: url(../Background/gradient.jpg);
+  background: no-repeat center center cover;
+  color: white;
+  text-align: center
+}
+
 h1 {
-    color: white;
-    text-align: center;
-    font-size: 45px;
-    font-family: 'Montserrat', sans-serif;
-  }
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 h2 {
   color: white;
   text-align: center;
@@ -18,59 +19,72 @@ h2 {
   margin-top: 2%;
   font-size: 30px;
 }
+
 input {
   border-radius: 2.8px;
   border-width: 0;
 }
+
 textarea {
   border-radius: 2.8px;
   border-width: 0;
 }
+
 li {
   list-style-type: none;
 }
+
 hr {
   margin-top: 8%;
   border-style: dotted;
   border-width: 6px;
   border-bottom: none;
   border-color: white;
-  width: 2%; 
+  width: 2%;
 }
+
 label {
   font-family: 'Montserrat', sans-serif;
 }
+
 form {
   margin-top: 4.5%;
 }
+
 a {
   color: white;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
+
 .email_input {
   margin-left: .2%;
 }
+
 .name_label {
   font-size: 18px;
 }
-.email_label{
+
+.email_label {
   margin-left: 2%;
   font-size: 18px;
 }
+
 .textarea_box {
   margin-top: 2.5%;
   margin-left: 4%;
   right: 2%;
   position: relative;
 }
+
 .message_label {
   position: relative;
   left: 1.7%;
   bottom: 290px;
   font-size: 18px;
 }
+
 .pay_it_forward_image_news_page {
   width: 18%;
   height: 200px;
@@ -78,17 +92,20 @@ a {
   margin-left: 20%;
   margin-right: .6%;
 }
+
 .pay_it_forward_text_news_page {
   font-family: 'Montserrat';
   font-size: 20px;
   text-align: left;
   margin-right: 20%;
-}   
+}
+
 .pay_it_forward_header {
   position: relative;
   right: 24%;
   margin-bottom: .6%;
 }
+
 .sample_1_image_news_page {
   width: 18%;
   height: 200px;
@@ -99,18 +116,21 @@ a {
   border-color: black;
   border-width: 3.4px;
 }
+
 .sample_1_text_news_page {
   font-family: 'Montserrat';
   font-size: 20px;
   text-align: right;
   margin-left: 20%;
 }
+
 .sample_1_header {
   position: relative;
   left: 26%;
   margin-top: 2%;
-  margin-bottom: .6%; 
+  margin-bottom: .6%;
 }
+
 .sample_2_image_news_page {
   width: 18%;
   height: 200px;
@@ -121,18 +141,21 @@ a {
   border-color: black;
   border-width: 3.4px;
 }
+
 .sample_2_text_news_page {
   font-family: 'Montserrat';
   font-size: 20px;
   text-align: left;
   margin-right: 20%;
 }
+
 .sample_2_header {
   position: relative;
   right: 26%;
   margin-top: 2%;
-  margin-bottom: .6%; 
+  margin-bottom: .6%;
 }
+
 .btn {
   display: inline-block;
   font-weight: normal;
@@ -141,9 +164,9 @@ a {
   white-space: nowrap;
   vertical-align: middle;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   border: 1px solid transparent;
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -152,25 +175,35 @@ a {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.btn:focus, .btn:hover {
+
+.btn:focus,
+.btn:hover {
   text-decoration: none;
 }
-.btn:focus, .btn.focus {
+
+.btn:focus,
+.btn.focus {
   outline: 0;
   -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
-          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+  box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
 }
-.btn.disabled, .btn:disabled {
+
+.btn.disabled,
+.btn:disabled {
   cursor: not-allowed;
   opacity: .65;
 }
-.btn:active, .btn.active {
+
+.btn:active,
+.btn.active {
   background-image: none;
 }
+
 a.btn.disabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
 }
+
 .btn-primary {
   color: black;
   background-color: white;
@@ -182,36 +215,46 @@ fieldset[disabled] a.btn {
   font-family: 'Montserrat';
   font-size: 13px;
 }
+
 .btn-primary:hover {
   color: white;
   background-color: black;
   border-color: none;
 }
-.btn-primary:focus, .btn-primary.focus {
+
+.btn-primary:focus,
+.btn-primary.focus {
   -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
-          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+  box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
 }
-.btn-primary.disabled, .btn-primary:disabled {
+
+.btn-primary.disabled,
+.btn-primary:disabled {
   background-color: #0275d8;
   border-color: #0275d8;
 }
-.btn-primary:active, .btn-primary.active,
-.show > .btn-primary.dropdown-toggle {
+
+.btn-primary:active,
+.btn-primary.active,
+.show>.btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #025aa5;
   background-image: none;
   border-color: #01549b;
 }
+
 .about_us_pic {
-  width:800px;
+  width: 800px;
   height: auto;
   float: left;
   margin-top: 20px;
 }
+
 .about_us_div {
   position: absolute;
   left: 820px;
 }
+
 .about_us_text {
   font-size: 33px;
   text-align: left;
@@ -220,14 +263,17 @@ fieldset[disabled] a.btn {
   margin-right: 80px;
   font-family: 'Montserrat', sans-serif;
 }
+
 .home_logo {
   margin: 0 auto 0 auto;
   width: 86%;
 }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+
 /*.home_pay_it_forward_pic {
   width: 350px;
   height: 200px;
@@ -238,33 +284,37 @@ fieldset[disabled] a.btn {
   left: 20px;
 }*/
 .li_border {
-  float:none; 
-  display:inline-block; 
-  margin:0; 
-  padding:0 10px; 
-  border-left:#ccc solid 1px;
-    }
-.first_li_without_border {
-  float:none; 
-  display:inline-block; 
-  margin:0; 
-  padding:0 10px; 
-  border-left:none;
+  float: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+  border-left: #ccc solid 1px;
 }
-.facebook_logo_pic{
+
+.first_li_without_border {
+  float: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+  border-left: none;
+}
+
+.facebook_logo_pic {
   position: relative;
   margin-left: 98px;
   top: 50px;
   width: 52px;
   border-radius: 10%;
 }
-.instagram_logo_pic{
+
+.instagram_logo_pic {
   position: relative;
   right: 1.2%;
   bottom: 8px;
   width: 56px;
   height: auto;
 }
+
 .contact_us_text {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
